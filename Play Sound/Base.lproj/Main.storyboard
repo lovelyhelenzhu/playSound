@@ -29,9 +29,9 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R4g-kD-tDK">
-                                <rect key="frame" x="0.0" y="146" width="375" height="375"/>
+                                <rect key="frame" x="0.0" y="159.5" width="375" height="348.5"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="R4g-kD-tDK" secondAttribute="height" multiplier="1:1" id="dPb-27-Vrd"/>
+                                    <constraint firstAttribute="width" secondItem="R4g-kD-tDK" secondAttribute="height" multiplier="1:0.93" id="dPb-27-Vrd"/>
                                 </constraints>
                                 <state key="normal" backgroundImage="icon"/>
                                 <connections>
@@ -39,7 +39,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="本demo包含的所有素材归@lovelyhelenzhu所有,禁止一切二次加工转载使用etc. 谢谢合作~ 本demo的详细说明见简书：http://www.jianshu.com/p/b94505bcc767" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dkS-C9-t71">
-                                <rect key="frame" x="16" y="561" width="343" height="86"/>
+                                <rect key="frame" x="16" y="548" width="343" height="99"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
