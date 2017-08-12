@@ -12,23 +12,23 @@ import AVFoundation
 class ViewController: UIViewController, AVAudioPlayerDelegate {
 
     var audioPlayer : AVAudioPlayer!
-    
+   
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+    
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
     }
 
     @IBAction func buttonTapped(_ sender: UIButton) {
-        playSound()
+        playSound(soundFileName : "喵", soundExtension: "m4a")
     }
 
-    func playSound() {
-        let soundURL = Bundle.main.url(forResource: "喵", withExtension: "m4a")
+    func playSound(soundFileName : String, soundExtension: String) {
+        let soundURL = Bundle.main.url(forResource: soundFileName, withExtension: soundExtension)
         
         do {
             audioPlayer = try AVAudioPlayer(contentsOf: soundURL!)
